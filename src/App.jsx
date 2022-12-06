@@ -1,5 +1,6 @@
 import './App.css'
 
+
 function App() {
 
   return (
@@ -9,10 +10,10 @@ function App() {
           <li>Shop</li>
           <li>Home</li>
           <li>About</li>
+          <li>Contact</li>
+          <li>Your Account</li>
           <li>Shop</li>
-          <li>Shop</li>
-          <li>Shop</li>
-          <li>Shop</li>
+          
         </ul>
       </nav>
     </div>
