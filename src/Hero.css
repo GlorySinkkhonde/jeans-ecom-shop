@@ -1,0 +1,86 @@
+.App{
+    height: 100vh;
+}
+
+.Nav{
+    margin: 0 15rem;
+    min-width: 700px;
+}
+  
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+img{
+    margin: 0 2rem;
+}
+  
+.hero-sec{
+    position: relative;
+    display: flex;
+    width: 90%;
+    z-index: 1;
+}
+
+.hero-sec>:nth-child(1){
+    width: 41.5%;
+    margin-left: -1rem;
+    margin-top: -9rem;
+}
+
+.content-section{
+    margin-left: 7rem;
+}
+
+.content-section>:nth-child(1){
+    font-size: 96px;
+    color: var(--main-color);
+}
+
+.content-section>:nth-child(3){
+    padding: 1rem 4rem;
+    background-color: var(--secondary-color);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.circle1{
+    position: absolute;
+    height: 15rem;
+    width: 16rem;
+    background-color: var(--secondary-color);
+    border-radius: 100%;
+    top: 4rem;
+    left: 22rem;
+    z-index: -1;
+    opacity: 40%;
+}
+
+.circle2{
+    position: absolute;
+    height: 9rem;
+    width: 9rem;
+    background-color: var(--accent-color);
+    border-radius: 100%;
+    top: -2rem;
+    right: 35rem;
+    z-index: -1;
+    opacity: 40%;
+}
+
+.circle3{
+    position: absolute;
+    height: 45rem;
+    width: 45rem;
+    background-color: var(--accent-color);
+    border-radius: 100%;
+    top: 20rem;
+    right: -30rem;
+    z-index: -1;
+    opacity: 40%;
+}

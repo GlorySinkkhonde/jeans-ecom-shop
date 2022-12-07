@@ -1,0 +1,21 @@
+.header{
+    text-align: center;
+}
+
+.card{
+    position: relative;
+    height: 45rem;
+    width: 30rem;
+    border: 1px solid black;
+}
+
+.card>:nth-child(1){
+    position: absolute;
+    width: 90%;
+}
+
+.info{
+    display: flex;
+    position: absolute;
+}
+

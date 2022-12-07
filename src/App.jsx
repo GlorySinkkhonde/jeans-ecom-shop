@@ -1,21 +1,12 @@
 import './App.css'
-
+import HeroSection from './Hero-Section'
+import Trending from './Trending'
 
 function App() {
-
   return (
-    <div className="App">
-      <nav>
-        <ul>
-          <li>Shop</li>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Your Account</li>
-          <li>Shop</li>
-          
-        </ul>
-      </nav>
+    <div>
+      <HeroSection />
+      <Trending />
     </div>
   )
 }
