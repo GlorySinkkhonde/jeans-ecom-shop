@@ -1,3 +1,7 @@
+.Trending-section{
+    
+}
+
 .header{
     text-align: center;
 }
@@ -10,12 +14,10 @@
 }
 
 .card>:nth-child(1){
-    position: absolute;
     width: 90%;
 }
 
 .info{
     display: flex;
-    position: absolute;
 }
 

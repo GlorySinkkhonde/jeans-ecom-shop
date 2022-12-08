@@ -3,7 +3,7 @@ import './Trending.css'
 
 function Trending() {
   return (
-    <div>
+    <div className='Trending-section'>
         <div className="header">
           <h3>Trending</h3>
           <h4>Here's what people are loving</h4>

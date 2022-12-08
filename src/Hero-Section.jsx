@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import { BsFillPersonFill, BsCartFill } from 'react-icons/bs'
+import Trending from './Trending'
 
 function HeroSection() {
   return (
@@ -28,6 +29,8 @@ function HeroSection() {
           <button>Shop</button>
         </div>
       </div>
+      
+      <Trending />
 
     </div>
   )
